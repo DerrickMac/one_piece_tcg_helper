@@ -17,205 +17,147 @@ leader_card = {
     "power": 5000
 }
 
-test_sp_product = {
-    "results": [
-        {
-      "productId": 558019,
-      "name": "Portgas.D.Ace (SP)",
-      "cleanName": "PortgasDAce SP",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/558019_200w.jpg",
-      "categoryId": 68,
-      "groupId": 23462,
-      "url": "https://www.tcgplayer.com/product/558019/one-piece-card-game-two-legends-portgasdace-sp",
-      "modifiedOn": "2024-11-01T13:01:40.377",
-      "imageCount": 1,
-      "extendedData": [
-        {
-          "name": "Rarity",
-          "displayName": "Rarity",
-          "value": "SR"
-        },
-        {
-          "name": "Number",
-          "displayName": "Number",
-          "value": "OP02-013"
-        },
-        {
-          "name": "Description",
-          "displayName": "Description",
-          "value": "[On Play] Give up to 2 of your opponent's Characters 3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Piratess\", this Character gains [Rush] during this turn.\u003Cbr\u003E\r\n(This card can attack on the turn in which it is played.)"
-        },
-        {
-          "name": "Color",
-          "displayName": "Color",
-          "value": "Red"
-        },
-        {
-          "name": "CardType",
-          "displayName": "Card Type",
-          "value": "Character"
-        },
-        {
-          "name": "Cost",
-          "displayName": "Cost",
-          "value": "7"
-        },
-        {
-          "name": "Power",
-          "displayName": "Power",
-          "value": "7000"
-        },
-        {
-          "name": "Subtypes",
-          "displayName": "Subtype(s)",
-          "value": "Whitebeard Pirates"
-        },
-        {
-          "name": "Attribute",
-          "displayName": "Attribute",
-          "value": "Special"
-        }
-      ]
+non_card_product = {
+  
+  "results": [
+  {
+  "productId": 542502,
+  "name": "Two Legends - Booster Pack",
+  "cleanName": "Two Legends Booster Pack",
+  "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/542502_200w.jpg",
+  "categoryId": 68,
+  "groupId": 23462,
+  "url": "https://www.tcgplayer.com/product/542502/one-piece-card-game-two-legends-two-legends-booster-pack",
+  "modifiedOn": "2024-09-13T04:08:26.533",
+  "imageCount": 1,
+  "extendedData": []
+  }  
+]}
+
+sp_character = {
+  "productId": 558019,
+  "name": "Portgas.D.Ace (SP)",
+  "cleanName": "PortgasDAce SP",
+  "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/558019_200w.jpg",
+  "categoryId": 68,
+  "groupId": 23462,
+  "url": "https://www.tcgplayer.com/product/558019/one-piece-card-game-two-legends-portgasdace-sp",
+  "modifiedOn": "2024-11-01T13:01:40.377",
+  "imageCount": 1,
+  "extendedData": [
+    {
+      "name": "Rarity",
+      "displayName": "Rarity",
+      "value": "SR"
     },
-    ]
+    {
+      "name": "Number",
+      "displayName": "Number",
+      "value": "OP02-013"
+    },
+    {
+      "name": "Description",
+      "displayName": "Description",
+      "value": "[On Play] Give up to 2 of your opponent's Characters 3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Piratess\", this Character gains [Rush] during this turn.\u003Cbr\u003E\r\n(This card can attack on the turn in which it is played.)"
+    },
+    {
+      "name": "Color",
+      "displayName": "Color",
+      "value": "Red"
+    },
+    {
+      "name": "CardType",
+      "displayName": "Card Type",
+      "value": "Character"
+    },
+    {
+      "name": "Cost",
+      "displayName": "Cost",
+      "value": "7"
+    },
+    {
+      "name": "Power",
+      "displayName": "Power",
+      "value": "7000"
+    },
+    {
+      "name": "Subtypes",
+      "displayName": "Subtype(s)",
+      "value": "Whitebeard Pirates"
+    },
+    {
+      "name": "Attribute",
+      "displayName": "Attribute",
+      "value": "Special"
+    }
+  ]
 }
 
-product_response = {
-  "results": [
-    {
-      "productId": 542502,
-      "name": "Two Legends - Booster Pack",
-      "cleanName": "Two Legends Booster Pack",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/542502_200w.jpg",
-      "categoryId": 68,
-      "groupId": 23462,
-      "url": "https://www.tcgplayer.com/product/542502/one-piece-card-game-two-legends-two-legends-booster-pack",
-      "modifiedOn": "2024-09-13T04:08:26.533",
-      "imageCount": 1,
-      "extendedData": []
-    },
-    {
-      "productId": 558019,
-      "name": "Portgas.D.Ace (SP)",
-      "cleanName": "PortgasDAce SP",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/558019_200w.jpg",
-      "categoryId": 68,
-      "groupId": 23462,
-      "url": "https://www.tcgplayer.com/product/558019/one-piece-card-game-two-legends-portgasdace-sp",
-      "modifiedOn": "2024-11-01T13:01:40.377",
-      "imageCount": 1,
-      "extendedData": [
-        {
-          "name": "Rarity",
-          "displayName": "Rarity",
-          "value": "SR"
-        },
-        {
-          "name": "Number",
-          "displayName": "Number",
-          "value": "OP02-013"
-        },
-        {
-          "name": "Description",
-          "displayName": "Description",
-          "value": "[On Play] Give up to 2 of your opponent's Characters 3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Piratess\", this Character gains [Rush] during this turn.\u003Cbr\u003E\r\n(This card can attack on the turn in which it is played.)"
-        },
-        {
-          "name": "Color",
-          "displayName": "Color",
-          "value": "Red"
-        },
-        {
-          "name": "CardType",
-          "displayName": "Card Type",
-          "value": "Character"
-        },
-        {
-          "name": "Cost",
-          "displayName": "Cost",
-          "value": "7"
-        },
-        {
-          "name": "Power",
-          "displayName": "Power",
-          "value": "7000"
-        },
-        {
-          "name": "Subtypes",
-          "displayName": "Subtype(s)",
-          "value": "Whitebeard Pirates"
-        },
-        {
-          "name": "Attribute",
-          "displayName": "Attribute",
-          "value": "Special"
-        }
-      ]
-    },
-    {
-      "productId": 558021,
-      "name": "Tony Tony.Chopper (001)",
-      "cleanName": "Tony TonyChopper 001",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/558021_200w.jpg",
-      "categoryId": 68,
-      "groupId": 23462,
-      "url": "https://www.tcgplayer.com/product/558021/one-piece-card-game-two-legends-tony-tonychopper-001",
-      "modifiedOn": "2024-09-13T04:08:26.533",
-      "imageCount": 1,
-      "extendedData": [
-        {
-          "name": "Rarity",
-          "displayName": "Rarity",
-          "value": "L"
-        },
-        {
-          "name": "Number",
-          "displayName": "Number",
-          "value": "OP08-001"
-        },
-        {
-          "name": "Description",
-          "displayName": "Description",
-          "value": "[Activate:Main] [Once Per Turn] Give up to 3 of your [Animal] or [Drum Kingdom] type Characters up to 1 rested DON!! card each."
-        },
-        {
-          "name": "Color",
-          "displayName": "Color",
-          "value": "Green;Red"
-        },
-        {
-          "name": "CardType",
-          "displayName": "Card Type",
-          "value": "Leader"
-        },
-        {
-          "name": "Cost",
-          "displayName": "Cost",
-          "value": "1"
-        },
-        {
-          "name": "Life",
-          "displayName": "Life",
-          "value": "4"
-        },
-        {
-          "name": "Power",
-          "displayName": "Power",
-          "value": "5000"
-        },
-        {
-          "name": "Subtypes",
-          "displayName": "Subtype(s)",
-          "value": "Animal;Straw Hat Crew;Drum Kingdom"
-        },
-        {
-          "name": "Attribute",
-          "displayName": "Attribute",
-          "value": "Strike"
-        }
-      ]
-    },
-    {
+base_leader = {
+    "productId": 558021,
+    "name": "Tony Tony.Chopper (001)",
+    "cleanName": "Tony TonyChopper 001",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/558021_200w.jpg",
+    "categoryId": 68,
+    "groupId": 23462,
+    "url": "https://www.tcgplayer.com/product/558021/one-piece-card-game-two-legends-tony-tonychopper-001",
+    "modifiedOn": "2024-09-13T04:08:26.533",
+    "imageCount": 1,
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP08-001"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[Activate:Main] [Once Per Turn] Give up to 3 of your [Animal] or [Drum Kingdom] type Characters up to 1 rested DON!! card each."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Green;Red"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "1"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "4"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Animal;Straw Hat Crew;Drum Kingdom"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Strike"
+      }
+    ]
+  }
+
+parallel_leader = {
       "productId": 558022,
       "name": "Tony Tony.Chopper (001) (Parallel)",
       "cleanName": "Tony TonyChopper 001 Parallel",
@@ -272,131 +214,16 @@ product_response = {
           "value": "Strike"
         }
       ]
-    },
-    {
-      "productId": 558023,
-      "name": "Marco",
-      "cleanName": "Marco",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/558023_200w.jpg",
+}
+
+character_with_counter = {
+      "productId": 558026,
+      "name": "Kuromarimo",
+      "cleanName": "Kuromarimo",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/558026_200w.jpg",
       "categoryId": 68,
       "groupId": 23462,
-      "url": "https://www.tcgplayer.com/product/558023/one-piece-card-game-two-legends-marco",
-      "modifiedOn": "2024-09-18T20:11:47.143",
-      "imageCount": 1,
-      "extendedData": [
-        {
-          "name": "Rarity",
-          "displayName": "Rarity",
-          "value": "L"
-        },
-        {
-          "name": "Number",
-          "displayName": "Number",
-          "value": "OP08-002"
-        },
-        {
-          "name": "Description",
-          "displayName": "Description",
-          "value": "[DON!! x1] [Activate: Main] [Once Per Turn] Draw 1 card and place 1 card from your hand at the top or bottom of your deck. Then, give up to 1 of your opponent's Characters -2000 power during this turn."
-        },
-        {
-          "name": "Color",
-          "displayName": "Color",
-          "value": "Blue;Red"
-        },
-        {
-          "name": "CardType",
-          "displayName": "Card Type",
-          "value": "Leader"
-        },
-        {
-          "name": "Life",
-          "displayName": "Life",
-          "value": "4"
-        },
-        {
-          "name": "Power",
-          "displayName": "Power",
-          "value": "5000"
-        },
-        {
-          "name": "Subtypes",
-          "displayName": "Subtype(s)",
-          "value": "Whitebeard Pirates"
-        },
-        {
-          "name": "Attribute",
-          "displayName": "Attribute",
-          "value": "Special"
-        }
-      ]
-    },
-    {
-      "productId": 558024,
-      "name": "Marco (Parallel)",
-      "cleanName": "Marco Parallel",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/558024_200w.jpg",
-      "categoryId": 68,
-      "groupId": 23462,
-      "url": "https://www.tcgplayer.com/product/558024/one-piece-card-game-two-legends-marco-parallel",
-      "modifiedOn": "2024-09-13T04:08:26.533",
-      "imageCount": 1,
-      "extendedData": [
-        {
-          "name": "Rarity",
-          "displayName": "Rarity",
-          "value": "L"
-        },
-        {
-          "name": "Number",
-          "displayName": "Number",
-          "value": "OP08-002"
-        },
-        {
-          "name": "Description",
-          "displayName": "Description",
-          "value": "[DON!! x1] [Activate: Main] [Once Per Turn] Draw 1 card and place 1 card from your hand at the top or bottom of your deck. Then, give up to 1 of your opponent's Characters 2000 power during this turn."
-        },
-        {
-          "name": "Color",
-          "displayName": "Color",
-          "value": "Blue;Red"
-        },
-        {
-          "name": "CardType",
-          "displayName": "Card Type",
-          "value": "Leader"
-        },
-        {
-          "name": "Life",
-          "displayName": "Life",
-          "value": "4"
-        },
-        {
-          "name": "Power",
-          "displayName": "Power",
-          "value": "5000"
-        },
-        {
-          "name": "Subtypes",
-          "displayName": "Subtype(s)",
-          "value": "Whitebeard Pirates"
-        },
-        {
-          "name": "Attribute",
-          "displayName": "Attribute",
-          "value": "Special"
-        }
-      ]
-    },
-    {
-      "productId": 558025,
-      "name": "Twenty Doctors",
-      "cleanName": "Twenty Doctors",
-      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/558025_200w.jpg",
-      "categoryId": 68,
-      "groupId": 23462,
-      "url": "https://www.tcgplayer.com/product/558025/one-piece-card-game-two-legends-twenty-doctors",
+      "url": "https://www.tcgplayer.com/product/558026/one-piece-card-game-two-legends-kuromarimo",
       "modifiedOn": "2024-09-13T04:08:26.533",
       "imageCount": 1,
       "extendedData": [
@@ -408,12 +235,12 @@ product_response = {
         {
           "name": "Number",
           "displayName": "Number",
-          "value": "OP08-003"
+          "value": "OP08-004"
         },
         {
           "name": "Description",
           "displayName": "Description",
-          "value": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)"
+          "value": "[On Play] If you have [Chess], K.O. up to 1 of your opponent's Characters with 3000 power or less."
         },
         {
           "name": "Color",
@@ -428,12 +255,12 @@ product_response = {
         {
           "name": "Cost",
           "displayName": "Cost",
-          "value": "2"
+          "value": "4"
         },
         {
           "name": "Power",
           "displayName": "Power",
-          "value": "2000"
+          "value": "5000"
         },
         {
           "name": "Subtypes",
@@ -448,11 +275,12 @@ product_response = {
         {
           "name": "Attribute",
           "displayName": "Attribute",
-          "value": "Wisdom"
+          "value": "Strike"
         }
       ]
-    },
-       {
+}
+
+stage_card = {
       "productId": 558044,
       "name": "Drum Kingdom",
       "cleanName": "Drum Kingdom",
@@ -499,8 +327,9 @@ product_response = {
           "value": "Drum Kingdom"
         }
       ]
-    },
-        {
+    }
+
+event_card = {
       "productId": 558063,
       "name": "Electrical Luna",
       "cleanName": "Electrical Luna",
@@ -547,8 +376,9 @@ product_response = {
           "value": "Minks"
         }
       ]
-    },
-    {
+    }
+
+manga = {
       "productId": 558162,
       "name": "Silvers Rayleigh (Parallel) (Manga)",
       "cleanName": "Silvers Rayleigh Parallel Manga",
@@ -605,8 +435,7 @@ product_response = {
           "value": "Slash"
         }
       ]
-    },
-]}
+    }
 
 price_response = {
   "results": [
