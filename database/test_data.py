@@ -1,3 +1,4 @@
+
 leader_card = {
     "product_id": 453505,
     "name": "Trafalgar Law (002)",
@@ -521,3 +522,4 @@ price_response = {
     },
   ]
   }
+
